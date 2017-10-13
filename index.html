@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Wikipedia Viewer</title>
+  <link rel="icon" href="http://res.cloudinary.com/viji/image/upload/e_green:100/v1507792063/favicon.ico" type="image/png">
+  <link rel="stylesheet" href="wiki.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|PT+Serif" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <div id="modal">
+    <div id="form-container" class="form-container clear-fix">
+      <button type="button" name="button" class="close-btn btn hover">&times;</button>
+      <input type="text" id="search-input" value="" autocomplete="off">
+      <ul class="dropdown">
+      </ul>
+      <button class="search-btn btn">Search</button>
+    </div>
+  </div>
+
+  <!-- <div class="nav"> -->
+  <div class="navbar">
+    <div class="nav-container center clear-fix">
+      <h1>Wikipedia Viewer</h1>
+      <div id="btn-wrapper">
+        <label for="search-input"><span name="button" class="search btn">Search Articles</span></label>
+        <a href="" name="button" class="random-btn btn" target="_blank">Random Article</a>
+      </div>
+    </div>
+  </div>
+  <!-- </div> -->
+
+  <div class="container">
+    <div class="article">
+    </div>
+  </div>
+  <footer class="clearfix">
+    <small><span>Designed and Coded </span>By - Viji &#40for free code camp Wikipedia Viewer project&#41</small>
+    <ul id="footer-links">
+      <li><a href="https://github.com/vijitharan" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+      <li><a href="https://twitter.com/vijitharan_v" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+      <li><a href="https://www.freecodecamp.org/vijitharan" target="_blank"><i class="fa fa-free-code-camp" aria-hidden="true"></i></a></li>
+    </ul>
+  </footer>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="wiki.js"></script>
+</body>
+
+</html>
